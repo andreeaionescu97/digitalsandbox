@@ -36,6 +36,8 @@
       <option value="$PROJECT_DIR$/CSS-grids-paragraphs/images/style.css" />
       <option value="$PROJECT_DIR$/CSS-grids-paragraphs/index.html" />
       <option value="$PROJECT_DIR$/CSS-grids-paragraphs/style.css" />
+      <option value="$PROJECT_DIR$/Banner/style.css" />
+      <option value="$PROJECT_DIR$/Banner/index.html" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1n2w9b3RBGfsOBazoa3GsE4S987" />
@@ -49,6 +51,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -61,7 +64,8 @@
       <option name="presentableId" value="Default" />
       <updated>1610601342407</updated>
       <workItem from="1610601343734" duration="46000" />
-      <workItem from="1610601409789" duration="27301000" />
+      <workItem from="1610601409789" duration="30777000" />
+      <workItem from="1611040019794" duration="6255000" />
     </task>
     <servers />
   </component>

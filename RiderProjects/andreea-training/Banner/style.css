@@ -1,0 +1,166 @@
+body, html {
+    height: 100%;
+}
+
+h1 {
+    Font-Family: 'Permanent Marker', Cursive;
+}
+
+p {
+    Font-Family: 'Overpass', Sans-Serif;
+    
+}
+
+.banner-image-1 {
+    background-image: url("https://images.unsplash.com/photo-1504446533425-7ce4af7bee53?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.banner-text-1 {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.banner-text-1 p {
+    color: white;
+}
+
+.banner-image-2 {
+    background-image: url("https://images.unsplash.com/photo-1578590149453-5f655ad52f25?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2762&q=80");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.banner-text-2 {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); 
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.banner-image-3 {
+    background-image: url("https://images.unsplash.com/photo-1517439964539-53704b7a3f63?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.banner-text-3 {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: solid;
+    border-color: white;
+}
+
+.button-1 {
+    background-color: #86C232;
+    color:white;
+    padding: 10px;
+    border-radius: 30px;
+    border-style: none;
+    margin-bottom: 30px;
+}
+
+.button-1:hover {
+    background-color: coral;
+}
+
+.banner-image-4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.unsplash.com/photo-1471506480208-91b3a4cc78be?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1653&q=80");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.banner-text-4 {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.button-2 {
+    background-color: transparent;
+    color:white;
+    padding: 10px;
+    border-radius: 30px;
+    border-style: solid;
+    border-color:white;
+    margin-bottom: 30px;
+}
+
+.button-2:hover {
+    background-color: dodgerblue;
+    border-style: none;
+}
+
+.banner-image-5 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://images.unsplash.com/photo-1504025468847-0e438279542c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2035&q=80");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.banner-text-5 {
+    position: absolute;
+    left: 0;
+    margin: 100px;
+    max-width: 300px;
+    padding: 16px;
+    background-color: rgba(255,255,255, 0.3);
+}
+
+.banner-image-6 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://images.unsplash.com/photo-1547156994-5773caa324de?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1650&q=80");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.banner-text-6 {
+    position: absolute;
+    right: 0;
+    margin: 100px;
+    max-width: 300px;
+    padding: 16px;
+    background-color: rgba(0,0,0, 0.3);
+    color:white;
+}
+
