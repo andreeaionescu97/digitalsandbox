@@ -1,0 +1,88 @@
+body, html {
+    height: 100%;
+}
+
+h1 {
+    font-family: 'Coda Caption', sans-serif;
+}
+
+p {
+    font-family: font-family: 'Lora', serif;
+}
+
+h2 {
+    font-family: font-family: 'Lora', serif;
+}
+
+.masterhead-image {
+    background-image: url("1.png");
+    height: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.masterhead-text {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.banner-1 {
+    background-color: #F5FCED;
+    padding: 100px 300px;
+}
+
+.banner-text-1 {
+    text-align: center;
+    color: black;
+}
+.primary-button {
+    background-color: #5DB700;
+    color: white;
+    padding: 8px;
+    border-style: none;
+}
+
+.primary-button:hover {
+    background-color: #79e609;
+}
+
+.paragraph-1 {
+    padding: 100px 300px;
+}
+
+.paragraph-1 .primary-button {
+    margin-top: 30px;
+}
+
+.icon-card {
+    display: flex;
+    
+}
+
+.icon-text {
+    width: 170px;
+    padding-left: 20px;
+}
+
+.icon-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+
+.icon-subtext {
+    font-size: 15px;
+}
+
+.banner-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+    padding: 100px 300px;
+}

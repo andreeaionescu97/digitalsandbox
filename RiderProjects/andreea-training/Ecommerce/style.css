@@ -1,0 +1,38 @@
+/*
+Error: Invalid CSS after "@import ": expected "{", was "url('https://fo..."
+        on line 2 of style.scss
+
+1: <style>
+2: @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+3: </style>
+4: 
+5: $font-mont 
+6: .masthead {
+7:   height: 100vh;
+
+Backtrace:
+style.scss:2
+/Users/andreeaionescu/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308:in `expected'
+/Users/andreeaionescu/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1238:in `expected'
+/Users/andreeaionescu/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1233:in `tok!'
+/Users/andreeaionescu/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:688:in `block'
+/Users/andreeaionescu/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:681:in `ruleset'
+/Users/andreeaionescu/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:707:in `block_child'
+/Users/andreeaionescu/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:697:in `block_contents'
+/Users/andreeaionescu/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:137:in `stylesheet'
+/Users/andreeaionescu/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:41:in `parse'
+/Users/andreeaionescu/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:414:in `_to_tree'
+/Users/andreeaionescu/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/Users/andreeaionescu/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/Users/andreeaionescu/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:387:in `run'
+/Users/andreeaionescu/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Users/andreeaionescu/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/exec/base.rb:50:in `parse'
+/Users/andreeaionescu/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/sass-3.7.4/lib/sass/exec/base.rb:18:in `parse!'
+/Users/andreeaionescu/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/sass-3.7.4/bin/sass:13:in `<top (required)>'
+/Users/andreeaionescu/.rbenv/versions/2.6.6/bin/sass:23:in `load'
+/Users/andreeaionescu/.rbenv/versions/2.6.6/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"@import \": expected \"{\", was \"url('https://fo...\"\A         on line 2 of style.scss\A \A 1: <style>\A 2: @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');\A 3: </style>\A 4: \A 5: $font-mont \A 6: .masthead {\A 7:   height: 100vh;"; }

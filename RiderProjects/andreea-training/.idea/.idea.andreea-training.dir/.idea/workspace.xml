@@ -13,6 +13,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="SCSS File" />
         <option value="HTML File" />
         <option value="CSS File" />
       </list>
@@ -38,6 +39,12 @@
       <option value="$PROJECT_DIR$/CSS-grids-paragraphs/style.css" />
       <option value="$PROJECT_DIR$/Banner/style.css" />
       <option value="$PROJECT_DIR$/Banner/index.html" />
+      <option value="$PROJECT_DIR$/Ecommerce/index.html" />
+      <option value="$PROJECT_DIR$/Ecommerce/style.scss" />
+      <option value="$PROJECT_DIR$/E-commerce/style.css" />
+      <option value="$PROJECT_DIR$/E-commerce/index.html" />
+      <option value="$PROJECT_DIR$/Ecommerce-training/style.css" />
+      <option value="$PROJECT_DIR$/Ecommerce-training/index.html" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1n2w9b3RBGfsOBazoa3GsE4S987" />
@@ -65,7 +72,7 @@
       <updated>1610601342407</updated>
       <workItem from="1610601343734" duration="46000" />
       <workItem from="1610601409789" duration="30777000" />
-      <workItem from="1611040019794" duration="6255000" />
+      <workItem from="1611040019794" duration="15367000" />
     </task>
     <servers />
   </component>
