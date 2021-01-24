@@ -176,3 +176,70 @@ h2 {
     width: 350px;
     margin-left: 30px;
 }
+
+.glide__slide {
+    background-color: white;
+    padding: 20px;
+    width: 200px;
+    height: 420px;
+}
+
+#videoDiv {
+    width:100%; 
+    max-width:1900px;
+    margin:auto; 
+    display:block; 
+    position: relative;
+} 
+#video {
+    width:100%;
+    height:auto;
+    filter:opacity(60%);
+} 
+#videoMessage {
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+    margin-left: 300px;
+}
+
+.banner-7 {
+    padding: 20px 200px;
+}
+
+.form-button {
+    background-color: #FF5523;
+    color:white;
+    padding: 8px;
+    border-style: none;
+    margin-left: 10px;
+    
+}
+
+.form-input {
+    width: 300px;
+    border-style: solid;
+    border-color: #FF5523;
+    
+    color: #6B6e70;
+}
+
+form {
+    display: flex;
+}
+
+.footer {
+    padding: 20px 200px;
+    height: 50px;
+    background-color: #1F1F1F;
+    margin-top: 30px;
+}
+
+.footer p {
+    color: white;
+}

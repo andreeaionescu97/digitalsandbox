@@ -8,6 +8,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+    
+    <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
+
+    <script>
+        new Glide('.glide').mount()
+    </script>
 </head>
 <body>
 <div class="masterhead-image">
@@ -124,5 +131,48 @@
         <img class="paragraph-src-right" src="5.png">
     </div>
 </div>
+<!--<div class="glide">-->
+<!--    <div class="glide__track" data-glide-el="track">-->
+<!--        <ul class="glide__slides">-->
+<!--            <li class="glide__slide">0</li>-->
+<!--            <li class="glide__slide">1</li>-->
+<!--            <li class="glide__slide">2</li>-->
+<!--        </ul>-->
+<!--    </div>-->
+<!--    <div class="glide__arrows" data-glide-el="controls">-->
+<!--        <button class="glide__arrow glide__arrow&#45;&#45;left" data-glide-dir="<">prev</button>-->
+<!--        <button class="glide__arrow glide__arrow&#45;&#45;right" data-glide-dir=">">next</button>-->
+<!--    </div>-->
+<!--</div>-->
+<!--<div class="video-banner">-->
+<!--    <video autoplay muted loop id="myVideo">-->
+<!--        <source src="video.mp4" type="video/mp4">-->
+<!--    </video>-->
+<!--    <div class="video-content">-->
+<!--        <p>Nulla consectetur sit amet elit at euismod. Phasellus dictum nibh in ex consectetur, quis sollicitudin sem tristique. Mauris placerat vitae quam a faucibus. Integer pretium, ipsum non luctus mollis, nisl urna maximus nulla, nec efficitur justo dolor id sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at accumsan neque, maximus mattis sapien. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>-->
+<!--    </div>-->
+<!--</div>-->
+<div id="videoDiv">
+    <video id="video" preload="" autoplay="" muted="" playsinline="" loop="">
+        <source src="video.mp4" type="video/mp4">
+    </video>
+    <div id="videoMessage" class="styling">
+        <p>Nulla consectetur sit amet elit at euismod. Phasellus dictum nibh in ex consectetur, quis sollicitudin sem tristique. Mauris placerat vitae quam a faucibus. Integer pretium, ipsum non luctus mollis, nisl urna maximus nulla, nec efficitur justo dolor id sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse at accumsan neque, maximus mattis sapien. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. </p>
+    </div>
+</div>
+<div class="banner-7">
+    <h1>Stay in contact !</h1>
+    <p>Vivamus malesuada dapibus mi, vitae ultricies enim euismod et. Proin semper commodo nibh, ut efficitur tortor dictum nec. Donec euismod elementum dolor, at aliquet neque feugiat a. Morbi sed nulla vitae ex scelerisque feugiat. Mauris in velit mi.</p>
+    <form>
+        <input class="form-input" type="text" id="fname" value="enter your email address"><br><br>
+        <input class="form-button" type="submit" value="Subscribe">
+    </form>
+</div>
+<div class="footer">
+    <p>@2021 Lipsum eCommerce</p>
+</div>
 </body>
 </html>
+
+
+
