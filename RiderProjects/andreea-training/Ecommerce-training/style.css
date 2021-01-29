@@ -16,7 +16,7 @@ h2 {
 
 .masterhead-image {
     background-image: url("1.png");
-    height: 80%;
+    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -47,6 +47,7 @@ h2 {
     color: white;
     padding: 8px;
     border-style: none;
+    font-size: 16px;
 }
 
 .primary-button:hover {
@@ -243,11 +244,11 @@ form {
     overflow: hidden;
     display: flex;
     justify-content: space-between;
-    padding: 0px 100px;
     height: 50px;
     position: fixed; 
     top: 0;
-    width: 1224px;
+    width: 100%;
+    z-index: 2;
 }
 
 .navbar a {
@@ -259,6 +260,7 @@ form {
 
 .nav-elem-1 {
     margin-top: 5px;
+    margin-left: 100px;
 }
 
 .nav-elem-2 {
@@ -267,9 +269,50 @@ form {
 
 .nav-elem-3 {
     margin-top: 12px;
+    margin-right: 100px;
 }
 
 .icon-nav {
     margin-right: 10px;
     margin-left: 10px;
+}
+
+.masterhead-text h1 {
+    font-size: 71px;
+}
+
+.masterhead-text h2 {
+    font-size: 41px;
+}
+
+.paragraph-1 p {
+    font-size: 24px;
+}
+
+.banner-text-1 h1 {
+    font-size: 51px;
+}
+
+.banner-text-1 p {
+    font-size: 24px;
+}
+
+.banner-4 h1 {
+    font-size: 51px;
+}
+
+.banner-4 p {
+    font-size: 16px;
+}
+
+.styling {
+    font-size: 31px;
+}
+
+.banner-7 h1 {
+    font-size: 51px;
+}
+
+.banner-7 p {
+    font-size: 16px;
 }
